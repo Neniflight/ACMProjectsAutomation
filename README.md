@@ -10,4 +10,5 @@ python reject_email_func.py [name_of_all_applicants_sheet] [team_sheet] [podmate
 ```
 
 BAM! You get a list of all the rejection emails! :0
+
 ![image](https://github.com/Neniflight/ACMProjectsAutomation/assets/96843411/af4a50f0-e3d1-4204-8900-f4e3477a6c30)
