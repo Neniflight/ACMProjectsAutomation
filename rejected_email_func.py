@@ -59,7 +59,7 @@ def rejected_email_func(files):
     accepted_emails = [get_emails_from_col(accepted_df) for accepted_df in accepted_dfs]
     accepted_emails = [item for sublist in accepted_emails for item in sublist]
     not_accepted_emails = [email for email in all_emails if email not in accepted_emails]
-    print("Number of rejected emails: " + len(not_accepted_emails))
+    print("Number of rejected emails: " + str(len(not_accepted_emails)))
     for email in not_accepted_emails:
         print(email)
 
